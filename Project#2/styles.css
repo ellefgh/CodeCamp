@@ -1,0 +1,79 @@
+body{
+    background-color: #FEC8D8;
+    box-shadow: 0 0 5px 5px #C49AA6;
+    border-radius: 20px;
+}
+
+#main{
+    max-width: 750px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 55px;
+    background-color: #E0BBE4;
+    border-radius: 20px;
+}
+
+#title{
+    text-align: center;
+    /*font-family: Cursive, "Brush Script MT". "Lucida Handwriting";*/
+    color: #615163;
+    /*font-size: 60px;*/
+    margin: 5px;
+    font: italic bold 60px "Lucinda Handwritting";
+}
+
+#main > p { /*member of the british royal fam*/
+    text-align: center;
+    color:#483C53;
+    font-size: 20px;
+    font: 1.2em "Fira Sans", sans-serif;
+
+}
+div{
+    text-align: center;
+}
+div > ul {
+    text-align: left;
+	margin-block: 0;
+	height: 100%;
+}
+div  ul > li {
+    color: #483C53;
+    margin: 0 0.2rem;
+	padding: 0.2rem;
+	display: block;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+#img-div{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #A78BAA;
+    background: rgba(0, 0, 0, 0.20);
+    /* ceva umbra misto */
+    box-shadow: 0 0 5px 5px #867089;
+    border-radius: 35px;
+}
+figcaption{
+    font: 10px "Fira Sans", sans-serif;
+}
+
+div > i, div > p{
+    /* LOW HIGHLIGHT */
+    background: linear-gradient(to bottom,
+                     transparent 20%,
+                     rgba(136, 73, 115, 0.361)
+    );
+
+}
+
+.answers-list {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makeup Products</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/be9b3c82b1.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima&family=Red+Hat+Display:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <header id="header">
+        <img id="header-img"
+        src="goddess.png"
+        alt="logo" class="center"
+        />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Products">Products</a>
+            <a class="nav-link" href="#Features">Features</a>
+            <a class="nav-link" href="#Pricing">Pricing</a>
+        </nav>
+    </header>
+<br><br>
+        <section class="main-section">
+            <hr/>
+    <br>
+            <header class="sect">Products</header>
+        <div id="Products">
+            <div class="product1">
+                <div class="name">Lipstick</div>
+                <img id="product-image" alt="lipstick"
+                src="https://imgs.search.brave.com/UH6I3dXMi0j4YVHIQDDd6MbN951YZKgrUTli5F1FIjY/rs:fit:800:800:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9saXBz/dGljay1kb29kbGUt/Y29sb3ItaWNvbi12/ZWN0b3ItaWxsdXN0/cmF0aW9uLWxpcHN0/aWNrLWRvb2RsZS1p/Y29uLTE3OTUyNzg3/OS5qcGc" />
+                <div class="price">US$10.00</div>
+            </div>
+                
+            <div class="product2">
+                <div class="name">Brush</div>
+                <img id="product-image" alt="brush"
+                src="https://imgs.search.brave.com/ioHIVKMvwEHAf8gFHhRdS_3dC-VAgZ1X--0IpbcOH1I/rs:fit:600:600:1/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTAwNzU2/Ni8xMjE4Ny92LzQ1/MC9kZXBvc2l0cGhv/dG9zXzEyMTg3NDYy/MC1zdG9jay1pbGx1/c3RyYXRpb24tbWFr/ZS11cC1icnVzaC10/b29sLWlzb2xhdGVk/LmpwZw" />
+                <div class="price">US$20.00</div>
+            </div>
+            <div class="product3">
+                <div class="name">Blush</div>
+                <img id="product-image" alt="blush"
+                src="https://imgs.search.brave.com/ZhrjIlY7MaJnpaywU60IXslkSn_oHGhy1oWk7Z_8XZU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDAzLzA3/NC8zNjMvbGFyZ2Vf/MngvaGFuZC1kcmF3/bi1jb3NtZXRpY3Mt/Ymx1c2gtZG9vZGxl/LWlsbHVzdHJhdGlv/bi1tYWtlLXVwLXZl/Y3Rvci5qcGc"/>
+                <div class="price">US$15.00</div>
+            </div>
+        <br><br>
+        </div>
+        <iframe 
+            id="video"
+           
+            src="https://www.youtube.com/embed/AuTgJ1EdLf0" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        <br>
+        <hr />
+        <br>
+        <div id="Features">
+            <header class="sect">Features</header>
+           
+            <div class="feature-icons">
+                <i class="fa-regular fa-face-kiss-wink-heart"></i>
+                <i class="fa-solid fa-truck-fast"></i>
+                <i class="fa-solid fa-coins"></i>
+            </div>
+            <div class="feature">
+                <p>Premium Materials</p>
+                <p>Fast Shipping</p>
+                <p>Quality Assurance</p>
+            </div>
+            <br>
+            <hr />
+            <br>
+            <div id="Pricing">
+                <header class="sect">Shipping Costs</header><br>
+                <table>
+                    <tr class="first">
+                      <th>Shipping Method</th>
+                      <th>Shipping Time</th>
+                      <th colspan="2">Costs</th>    
+                    </tr>
+                    <tr>
+                      <td>STANDARD SHIPPING</td>
+                      <td>Estimated to be delivered on 08/10/2022 - 08/12/2022.</td>    
+                      <td>US$3.99</td>
+                      <td>Free - orders over US$49.00</td>    
+                    </tr>
+                    <tr>
+                        <td>EXPRESS SHIPPING</td>
+                        <td>Estimated to be delivered on 08/06/2022 - 08/08/2022.</td>    
+                        <td>US$12.90</td>
+                        <td> Free - orders over US$159.00</td>    
+                      </tr>
+                  </table>
+                  <br>
+        <hr />
+        <br>
+            </div>
+        </section> 
+
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit"> 
+            <header class="subscribe">Subscribe to our newsletter</header>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" type="email" required/>
+            <input id="submit" type="submit" value="Submit" class="submit-button">
+        </form>
+        
+
+
+  </body>
+  
+
+  </html>
